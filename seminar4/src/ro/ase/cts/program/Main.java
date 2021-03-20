@@ -2,6 +2,7 @@ package ro.ase.cts.program;
 
 import ro.ase.cts.clase.Parlament;
 import ro.ase.cts.clase.ParlamentLazy;
+import ro.ase.cts.clase.Restaurant;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,5 +24,13 @@ public class Main {
         ParlamentLazy parlamentLazy2 = ParlamentLazy.getInstance("Norvegia", 100,10, "lallala");
         System.out.println(parlamentLazy.toString());
         System.out.println(parlamentLazy2.toString());
+
+        System.out.println("--------");
+
+        Restaurant restaurantLazy = Restaurant.getInstance("Dristor Kebap", 20, (float) 10000.55);
+        Restaurant restaurantLazy2 = Restaurant.getInstance("Socului", 15, (float) 9000.55);
+
+        System.out.println(restaurantLazy.toString());
+        System.out.println(restaurantLazy2.toString());
     }
 }

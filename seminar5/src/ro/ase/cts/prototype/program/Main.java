@@ -1,4 +1,4 @@
-package ro.ase.cts.prototype.clase.program;
+package ro.ase.cts.prototype.program;
 
 import ro.ase.cts.prototype.clase.Reteta;
 

@@ -11,5 +11,9 @@ public class Main {
 
         System.out.println(medic);
         System.out.println(asistent);
+
+        System.out.println("-------------");
+        PersonalMedical medic2 = FactorySingleton.getInstance().create(TipPersonal.MEDIC, "Doru", 7657);
+        System.out.println(medic2);
     }
 }

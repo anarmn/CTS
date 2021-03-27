@@ -1,8 +1,8 @@
-package ro.ase.cts.program;
+package ro.ase.cts.prototype.clase.program;
 
-import ro.ase.cts.clase.Parlament;
-import ro.ase.cts.clase.ParlamentLazy;
-import ro.ase.cts.clase.Restaurant;
+import ro.ase.cts.prototype.clase.Parlament;
+import ro.ase.cts.prototype.clase.ParlamentLazy;
+import ro.ase.cts.prototype.clase.Restaurant;
 
 public class Main {
     public static void main(String[] args) {

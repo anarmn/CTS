@@ -1,6 +1,6 @@
-package ro.ase.cts.clase.readers;
+package ro.ase.cts.prototype.clase.readers;
 
-import ro.ase.cts.clase.Aplicant;
+import ro.ase.cts.prototype.clase.Aplicant;
 
 import java.io.FileNotFoundException;
 import java.util.List;

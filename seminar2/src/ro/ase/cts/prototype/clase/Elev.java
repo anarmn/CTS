@@ -1,6 +1,4 @@
-package ro.ase.cts.clase;
-
-import java.util.Arrays;
+package ro.ase.cts.prototype.clase;
 
 public class Elev extends Aplicant{
 	private int clasa;

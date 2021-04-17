@@ -2,8 +2,6 @@ package ro.ase.cts.program;
 
 import ro.ase.cts.clase.Facade;
 import ro.ase.cts.clase.Masa;
-import ro.ase.cts.clase.OperatorMese;
-import ro.ase.cts.clase.Piccolo;
 
 public class Main {
 

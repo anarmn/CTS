@@ -1,3 +1,5 @@
+package ro.ase.cts.clase;
+
 public abstract class SpectatorAbstract {
 
     public abstract void seAseazaLaCoada();

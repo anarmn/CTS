@@ -1,3 +1,5 @@
+package ro.ase.cts.clase;
+
 public class Spectator extends SpectatorAbstract{
     private String nume;
 

@@ -36,6 +36,7 @@ public class Grupa {
         throw new IndexOutOfBoundsException();
     }
 
+
     public float getPromovabilitate(){
         int nrRestantieri=0;
         for(IStudent student:studenti){
@@ -43,8 +44,9 @@ public class Grupa {
                 nrRestantieri++;
             }
         }
-        return studenti.size()/nrRestantieri;
+        return (this.studenti.size()-nrRestantieri)/(float)this.studenti.size();
     }
+
 
     public List<IStudent> getStudenti() {
         return studenti;
